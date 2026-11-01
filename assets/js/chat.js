@@ -178,6 +178,8 @@
     var tag = painel.querySelector("[data-tag-ia]");
     var status = painel.querySelector("[data-status]");
     var rodape = painel.querySelector("[data-rodape]");
+    var legenda = lancador.querySelector(".chat-launcher__text small");
+    legenda.innerHTML = icone("sparkle") + (estado.ia === false ? " Assistente virtual · online" : " Suporte com IA · online");
     if (estado.ia === false) {
       tag.hidden = true;
       status.textContent = "Assistente virtual · respostas automáticas";
@@ -588,6 +590,10 @@
     atualizarBotao();
   }
   entrada.addEventListener("input", ajustarAltura);
+
+  // Descobre logo se a IA está ativa, para o botão mostrar o modo certo.
+  var quandoOcioso = window.requestIdleCallback || function (fn) { return setTimeout(fn, 1500); };
+  quandoOcioso(function () { verificarIA(); });
 
   /* ---------- Convite (balão) ---------- */
   var conversaSalva = restaurar();
