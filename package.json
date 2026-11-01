@@ -1,0 +1,21 @@
+{
+  "name": "latefy-lingerie-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site da Latefy Lingerie Oficial com suporte por IA (assistente Lia).",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos121edu23-glitch/link.git"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0"
+  }
+}

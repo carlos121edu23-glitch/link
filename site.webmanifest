@@ -1,0 +1,14 @@
+{
+  "name": "Latefy Lingerie Oficial",
+  "short_name": "Latefy",
+  "description": "Moda íntima e revenda por consignação. Atendemos PR, SC e interior de SP.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbf6f2",
+  "theme_color": "#fbf6f2",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "assets/img/logo-latefy.png", "sizes": "256x256", "type": "image/png" },
+    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
