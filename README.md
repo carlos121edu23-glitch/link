@@ -50,6 +50,7 @@ repositórios privados, o Pages exige um plano pago do GitHub.
 | WhatsApp, Instagram, mensagens prontas, nome da assistente | `assets/js/config.js` |
 | Depoimentos de revendedoras (só reais e autorizados) | `assets/js/config.js` → `depoimentos` |
 | Textos do site | `index.html` |
+| Condições da revenda (comissão, acerto, idade) | `index.html` (bloco "Condições para revendedoras" e dúvidas), `assets/js/assistente-base.js` e `api/_lib/prompt.js` |
 | Respostas do modo automático do chat | `assets/js/assistente-base.js` |
 | O que a IA sabe e como responde | `api/_lib/prompt.js` |
 | Cores, fontes e animações | `assets/css/style.css` (variáveis no topo) |
@@ -76,8 +77,9 @@ divulgar o site.
   visitante e de 800 caracteres por mensagem, para segurar custos e abusos.
 - A API da Anthropic cobra por uso: cada resposta curta custa poucos centavos de
   dólar. Acompanhe o consumo no console da Anthropic.
-- A IA foi instruída a não inventar preços, comissões, prazos ou condições: para
-  isso ela manda a pessoa para o WhatsApp da equipe.
+- A Lia (com ou sem IA) informa só as condições oficiais da revenda (comissão de 30% a
+  40%, peças em casa, acerto a cada dois meses, acima de 25 anos) e não inventa preços,
+  prazos ou outras condições: para isso ela manda a pessoa para o WhatsApp da equipe.
 
 ## Rodar no computador
 

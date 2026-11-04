@@ -230,7 +230,7 @@
       {
         id: "consignacao",
         termos: ["consign*", "como funciona", "funciona", "acerto", "acertar", "devolv*", "devoluc*", "o que sobrar", "nao vender", "nao vendi", "sobrar"],
-        texto: "Na **consignação** você recebe as peças para vender **sem precisar comprá-las antes**. Depois, no acerto, você paga apenas o que vendeu e devolve o que não vendeu. 💗\n\nPara começar é simples: chame a nossa equipe no WhatsApp, faça seu cadastro, receba as peças e comece a vender.",
+        texto: "Na **consignação** você recebe as peças no conforto da sua casa para vender **sem precisar comprá-las antes**. A cada dois meses é feito o acerto: você paga apenas o que vendeu e devolve o que não vendeu. 💗\n\nPara começar é simples: chame a nossa equipe no WhatsApp, faça seu cadastro, receba as peças e comece a vender.",
         acao: WA_REVENDA,
         chips: ["Quero ser revendedora", "Preciso investir algo?", "Quais regiões vocês atendem?"],
       },
@@ -285,7 +285,7 @@
       {
         id: "ganhos",
         termos: ["lucr*", "ganh*", "comiss*", "porcentagem", "percentual", "margem", "renda extra", "dinheiro", "rentavel", "vale a pena"],
-        texto: "Os seus ganhos dependem das peças que você vender. As condições da revenda, como margem e acerto, são explicadas pela nossa equipe no cadastro. 💗 Chame no WhatsApp para saber todos os detalhes.",
+        texto: "A comissão é de **30% a 40%** sobre as suas vendas: quanto mais você vende, mais você ganha. 💗 A nossa equipe explica todos os detalhes no cadastro pelo WhatsApp.",
         acao: WA_REVENDA,
         chips: ["Como funciona a consignação?", "Quero ser revendedora"],
       },
@@ -299,14 +299,14 @@
       {
         id: "pagamento",
         termos: ["pagament*", "pix", "cartao", "credito", "debito", "boleto", "parcel*", "forma de pagar", "formas de pagar", "como pago", "como pagar", "pagar"],
-        texto: "As formas de pagamento e o acerto da consignação são combinados diretamente com a nossa equipe. Chame no WhatsApp para saber as opções. 💗",
+        texto: "O acerto da consignação é feito **a cada dois meses**: você paga as peças que vendeu e devolve as que não foram vendidas. As formas de pagamento são combinadas com a nossa equipe no WhatsApp. 💗",
         acao: WA,
         chips: ["Como funciona a consignação?"],
       },
       {
         id: "entrega",
         termos: ["entreg*", "frete", "envi*", "prazo*", "correio*", "transportadora", "chega", "chegam", "demora", "retirar", "retirada"],
-        texto: "Os prazos e as formas de entrega das peças dependem da sua cidade. A nossa equipe informa tudo certinho pelo WhatsApp. 📦",
+        texto: "As peças chegam no conforto da sua casa. 📦 Os prazos de entrega dependem da sua cidade, e a nossa equipe informa tudo certinho pelo WhatsApp.",
         acao: WA,
         chips: ["Quais regiões vocês atendem?"],
       },
@@ -326,8 +326,8 @@
       },
       {
         id: "requisitos",
-        termos: ["requisit*", "documento*", "o que precisa", "o que preciso", "precisa de que", "cpf", "cnpj", "mei", "nome sujo", "score", "spc", "serasa", "aprovac*", "aprovad*", "analise", "idade", "menor de idade", "comprovante"],
-        texto: "O que é necessário para o cadastro é explicado pela nossa equipe no WhatsApp. 💗\n\nPor segurança, não envie documentos ou dados pessoais aqui no chat: trate o cadastro direto com a equipe.",
+        termos: ["requisit*", "documento*", "o que precisa", "o que preciso", "precisa de que", "cpf", "cnpj", "mei", "nome sujo", "score", "spc", "serasa", "aprovac*", "aprovad*", "analise", "idade", "menor de idade", "comprovante", "quem pode", "quem pode ser revendedora", "quem pode vender", "posso ser revendedora", "idade minima", "minimo de idade", "idade para vender", "maior de idade", "25 anos", "quantos anos preciso", "quantos anos precisa"],
+        texto: "Para vender com a Latefy é preciso ter **acima de 25 anos**. O restante do cadastro é feito com a nossa equipe no WhatsApp. 💗\n\nPor segurança, não envie documentos ou dados pessoais aqui no chat: trate o cadastro direto com a equipe.",
         acao: WA_REVENDA,
         chips: ["Como funciona a consignação?"],
       },

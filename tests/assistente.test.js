@@ -102,15 +102,26 @@ test("cumprimento junto com pergunta responde a pergunta", () => {
   assert.match(r.texto, /^Oi! /);
 });
 
-test("nenhuma resposta inventa preço, comissão ou prazo", () => {
+test("nenhuma resposta inventa preço, comissão ou prazo além das condições oficiais", () => {
   const perguntas = [
     "quanto custa", "qual a comissão", "qual o prazo de entrega", "quantas peças vem",
     "como funciona", "quero revender", "preciso investir", "tamanhos", "formas de pagamento",
   ];
   for (const p of perguntas) {
     const { texto } = assistente.responder(p);
-    assert.doesNotMatch(texto, /R\$|\d+\s*%|\d+\s*dias/, p);
+    const semOficiais = texto.replace(/30% a 40%/g, "");
+    assert.doesNotMatch(semOficiais, /R\$|\d+\s*%|\d+\s*dias/, p);
   }
+});
+
+test("responde com as condições oficiais da revenda", () => {
+  assert.match(assistente.responder("qual a comissão?").texto, /30% a 40%/);
+  assert.match(assistente.responder("quanto eu ganho?").texto, /30% a 40%/);
+  assert.match(assistente.responder("como funciona o acerto?").texto, /dois meses/);
+  assert.match(assistente.responder("formas de pagamento").texto, /dois meses/);
+  assert.match(assistente.responder("quem pode ser revendedora?").texto, /25 anos/);
+  assert.match(assistente.responder("qual a idade mínima?").texto, /25 anos/);
+  assert.match(assistente.responder("quantos anos a Latefy tem?").texto, /18 anos/);
 });
 
 test("boas-vindas apresenta a assistente e sugere perguntas", () => {

@@ -981,6 +981,53 @@ html:not(.js) .about__digits { background-size: 100% 100%; }
 }
 .resell .section-lead { color: rgba(255, 236, 230, 0.78); }
 
+/* Condições para revendedoras (logo abaixo do texto de abertura) */
+.terms { max-width: 980px; margin: 40px auto 0; }
+.terms__label {
+  margin: 0 0 18px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--rose-300);
+}
+.terms__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.terms__item {
+  padding: 24px 18px 22px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(214, 168, 152, 0.2);
+  transition: background 0.5s, border-color 0.5s;
+}
+.terms__item:hover { background: rgba(255, 255, 255, 0.06); border-color: rgba(214, 168, 152, 0.42); }
+.terms__item strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 2.6vw, 2.25rem);
+  font-weight: 500;
+  line-height: 1.1;
+  color: #fff;
+}
+.terms__item span {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  color: rgba(255, 236, 230, 0.76);
+}
+@media (max-width: 760px) {
+  .terms { margin-top: 32px; }
+  .terms__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .terms__item { padding: 20px 14px 18px; }
+}
+
 .resell__grid {
   display: grid;
   grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
