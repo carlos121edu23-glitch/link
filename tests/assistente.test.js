@@ -12,7 +12,7 @@ const { criarAssistente, normalizar, detectarLugar } = contexto.LatefyAssistente
 const assistente = criarAssistente({
   anos: 18,
   regioes: "PR, SC e interior de SP",
-  whatsappExibicao: "(43) 98005-3825",
+  whatsappExibicao: "(43) 99805-3825",
   instagram: "latefy_lingerieof",
   assistente: { nome: "Lia" },
 });

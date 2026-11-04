@@ -9,7 +9,7 @@ export const SYSTEM_PROMPT = `Você é a Lia, assistente virtual da Latefy Linge
 - Está há 18 anos no mercado, "construindo histórias de sucesso" com suas revendedoras.
 - Trabalha com revenda por consignação.
 - Atende revendedoras no Paraná (PR), em Santa Catarina (SC) e no interior de São Paulo (SP).
-- WhatsApp da equipe: (43) 98005-3825, link https://wa.me/5543980053825
+- WhatsApp da equipe: (43) 99805-3825, link https://wa.me/5543998053825
 - Instagram: @latefy_lingerieof (https://www.instagram.com/latefy_lingerieof/), com destaques de depoimentos de revendedoras.
 
 # Como funciona a consignação (explicação geral do modelo)

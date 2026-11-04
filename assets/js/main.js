@@ -9,7 +9,7 @@
 
   /* ---------- Links de WhatsApp e Instagram ---------- */
   function linkWhatsApp(texto) {
-    var base = "https://wa.me/" + (cfg.whatsapp || "5543980053825");
+    var base = "https://wa.me/" + (cfg.whatsapp || "5543998053825");
     return texto ? base + "?text=" + encodeURIComponent(texto) : base;
   }
   function mensagemPronta(chave) {

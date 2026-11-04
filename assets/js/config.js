@@ -7,9 +7,9 @@ window.LATEFY = {
   nome: "Latefy Lingerie Oficial",
 
   // WhatsApp no formato internacional, só números (55 + DDD + número).
-  whatsapp: "5543980053825",
-  whatsappExibicao: "(43) 98005-3825",
-  telefone: "+5543980053825",
+  whatsapp: "5543998053825",
+  whatsappExibicao: "(43) 99805-3825",
+  telefone: "+5543998053825",
 
   instagram: "latefy_lingerieof",
   seguidoras: 4680,

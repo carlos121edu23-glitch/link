@@ -16,7 +16,7 @@ const MAX_CORPO_BYTES = 32 * 1024;
 const LIMITE_PADRAO = { janelaMs: 10 * 60 * 1000, maximo: 30 };
 
 const RESPOSTA_RECUSA =
-  "Desculpe, não consigo ajudar com isso por aqui. 💗 Para qualquer dúvida sobre a Latefy, fale com a nossa equipe no WhatsApp: https://wa.me/5543980053825";
+  "Desculpe, não consigo ajudar com isso por aqui. 💗 Para qualquer dúvida sobre a Latefy, fale com a nossa equipe no WhatsApp: https://wa.me/5543998053825";
 
 class ErroHttp extends Error {
   constructor(status, codigo) {
